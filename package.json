@@ -1,0 +1,11 @@
+{
+  "name": "status-preview-project",
+  "version": "1.0.0",
+  "description": "Front End Mentor challeng for newbies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikolay D.",
+  "license": "ISC"
+}
