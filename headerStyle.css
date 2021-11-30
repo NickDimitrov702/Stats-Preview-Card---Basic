@@ -1,0 +1,21 @@
+.header-info {
+    text-align: start;
+    max-width: 400px;
+    font-size: 23px;
+    
+}
+
+.header-info h1 {
+    /* max-width: 400px;  */
+    /* padding: 10px; */
+    color: white;
+    text-align:start;
+
+    
+}
+
+.header-info span {
+    margin: 0px 3px 0px 3px;
+    color: hsl(277, 64%, 61%);
+    
+}
