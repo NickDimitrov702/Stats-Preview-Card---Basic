@@ -5,44 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stats Preview Card - Basic project</title>
-    <link rel="stylesheet" href="./mainStyle.css" >
+    <link rel="stylesheet" href="./style.css" >
     <link rel="stylesheet" href="./mediaQuery.css" >
-    <link rel="stylesheet" href="./headerStyle.css" >
-    <link rel="stylesheet" href="./cardBodyStyle.css" >
-    <link rel="stylesheet" href="./footerStyle.css" >
-    <link rel="stylesheet" href="./cardImgStyle.css" >
+    
 </head>
 <body>
-    <main id="main-wrapper">
-        <section id="info-wrapper">
-            <header class="header-info">
-                <h1>Get <span> insights </span> that help your buisiness grow.</h1>
-            </header>
-            <section class="body-info">
-                <p>Discover the benefits of data analytics and make better decisions
-                    regarding revenue, customer experience, and overal efficiency.
-                </p>
-            </section>
-            <footer>
-                <section id="footer-info-wrapper">
-                    <div class="footer-info-items">
-                        <span class="number">10k+</span>
-                        <span class="name">COMPANIES</span>
+      <main id="card-wrapper">
+          <div id="img-wrapper">
+            <img id="main-img" src="./resources/image-header-desktop.jpg" alt="not found" >
+          </div>
+          <section id="container">
+              <h1>Get <span>insights</span> that help your business grow.</h1>
+              <p>Discover the benefits of data analytics and make better decisions regarding revenue, 
+                  customer experience, and overall efficiency.</p>
+                  <div class="statistics-wrapper">
+                    <div class="statistics-items">
+                        <h2>10k+</h2>
+                        <span class="para">COMPANIES</span>
                     </div>
-                    <div class="footer-info-items">
-                        <span class="number">314</span>
-                        <span class="name">TEMPLATES</span>
+                    <div class="statistics-items">
+                        <h2>314</h2>
+                        <span class="para">TEMPLATES</span>
                     </div>
-                    <div class="footer-info-items">
-                        <span class="number">12M+</span>
-                        <span class="name">QUERIES</span>
+                    <div class="statistics-items">
+                        <h2>12M+</h2>
+                        <span class="para">QUERIES</span>
                     </div>
-                </section>
-            </footer>
-        </section>
-        <section id="image-wrapper">
-            <img alt="img not found" src="./resources/image-header-desktop.jpg">
-        </section>
-    </main>
+              </article>
+          </section>
+         
+      </main> 
 </body>
 </html>
